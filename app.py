@@ -74,3 +74,8 @@ if prompt := st.chat_input("Ask about your resume..."):
         st.markdown(reply)
 
     st.session_state.messages.append({"role": "assistant", "content": reply})
+st.divider()
+st.markdown(
+    "<p style='text-align: center;'>Developed by <b>Niaz Ali Roomi</b></p>",
+    unsafe_allow_html=True,
+)
